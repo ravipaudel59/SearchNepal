@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags-->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- <meta name="description" content="Colorlib Templates">
+    <meta name="author" content="Colorlib">
+    <meta name="keywords" content="Colorlib Templates"> -->
+    
+
+    <!-- Title Page-->
+    <title>Apply for Job</title>
+
+    <!-- Font special for pages-->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i" rel="stylesheet">
+    <link rel="stylesheet" href="apply/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="apply.html">
+    <link rel="stylesheet" href="css/fontawesome.min.css">
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <title class="text-uppercase">Search Nepal</title>
+    <!-- Main CSS-->
+    <link href="apply/css/main.css" rel="stylesheet" media="all">
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="container">
+            <div class="navbar-header">
+                <button class="navbar-toggle" data-toggle="collapse" data-target="#na">
+                    <i class="icon-bar"></i>
+                    <i class="icon-bar"></i>
+                    <i class="icon-bar"></i>
+                </button>
+                <a href="" class="navbar-brand navbars" style="height: auto;">
+                    <img src="image/logo1.png" width="100%" style="max-width: 50px;">
+                </a>
+                <img src="image/cropped-Search-Nepal.jpg" width="100%" style="max-width: 100px; margin-top: 25px;">
+            </div>
+            <div class="collapse navbar-collapse" id="na">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="index.html" title="Home" data-toggle="tooltip" data-placement="bottom"
+                            class="text-capitalize">home</a></li>
+                    <li><a href="service.html" title="Services" data-toggle="tooltip" data-placement="bottom"
+                            class="text-capitalize">services</a></li>
+                    <li><a href="#" title="Portfolio" data-toggle="tooltip" data-placement="bottom"
+                            class="text-capitalize">About Us</a></li>
+                    <li><a href="#contact" title="Contact us" data-toggle="tooltip" data-placement="bottom"
+                            class="text-capitalize">contact us</a></li>
+                    <li><a href="jobs.php" data-toggle="popover" data-placement="popover"
+                            class="text-capitalize">Jobs</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="page-wrapper bg-dark p-t-100 p-b-50">
+        <div class="wrapper wrapper--w900">
+            <div class="card card-6">
+                <div class="card-heading">
+                    <h2 class="title">Apply for job</h2>
+                </div>
+                <div class="card-body">
+                    <form method="POST" action="trial.php" enctype="multipart/form-data" id="applyForm">
+                        <div class="form-row">
+                            <div class="name">Full name</div>
+                            <div class="value">
+                                <input class="input--style-6" type="text" name="full_name" id="fullname" required>
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="name">Email address</div>
+                            <div class="value">
+                                <!-- <div class="input-group"> -->
+                                    <input class="input--style-6" type="email" name="email" id="email" placeholder="example@email.com" required>
+                                <!-- </div> -->
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="name">Contact</div>
+                            <div class="value">
+                                <!-- <div class="input-group"> -->
+                                    <input class="input--style-6" type="text" name="contact" id="contact" required>
+                                <!-- </div> -->
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="name">Position</div>
+                            <div class="value">
+                                <!-- <div class="input-group"> -->
+                                    <input class="input--style-6" type="text" name="position" id="position" required>
+                                <!-- </div> -->
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="name">Upload CV</div>
+                            <div class="value">
+                                <div class="input-group js-input-file">
+                                    <input type="file" name="file_cv" class="input-file" id="files_cv" value="" required/>
+                                    <!-- <label class="label--file">Choose file</label>
+                                    <span class="input-file__info">No file chosen</span> -->
+                                </div>
+                                <div class="label--desc">Upload your CV/Resume or any other relevant file. Max file size 50 MB</div>
+                            </div>
+                        </div>
+                        <div class="card-footer">
+                            <button class="btn btn--radius-2 btn--blue-2 text-white" type="submit" name="submit" onclick="sendEmail()" value="Send an Email">Send Application</button>
+                        </div>
+                    </form>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+
+    <!-- Jquery JS-->
+    <script src="apply/vendor/jquery/jquery.min.js"></script>
+    <!-- for phpMailer -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+    <!-- Main JS-->
+    <script src="apply/js/global.js"></script>
+
+</body><!-- This templates was made by Colorlib (https://colorlib.com) -->
+
+</html>
+<!-- end document-->

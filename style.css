@@ -1,0 +1,147 @@
+body{
+    font-family: Merriweather;
+}
+.contain{
+    margin-top: 20px;
+}
+#na{
+    margin-top: 10px;
+}
+.he{
+    font-size: 39px;
+}
+.navbar{
+    
+    color: rgb(0, 158, 197);
+    margin-bottom: 0;
+}
+.navbar-toggle{
+    background-color: #000;
+}
+.icon-bar{
+    background-color: #fff;
+}
+.nav{
+    font-weight: bolder;
+    margin-top: 12px;
+}
+.navbar .nav li a{
+    color: rgb(0, 107, 139);
+}
+.navbar .nav li a:hover,.navbar .nav li a:focus,.navbarr .nav li a.active{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    background: rgb(0, 54, 99);
+    border-radius: 10px;
+}
+.text{
+    font-size: 55px;
+    margin-top: 42px;
+    font-weight: 700;
+    font-family: Merriweather;
+    text-align: center;
+}
+button{
+    /* width: 200px; */
+    height: 50px;
+}
+.btn{
+    background: #fff;
+    color: black;
+    border: 2px solid #000;
+    font-size: 20px;
+}
+.btn:hover{
+    background: #000;
+    color: #fff;
+}
+.cont{
+    margin-top: 50px;
+}
+.con{
+    background: rgb(243, 237, 229);
+}
+.head{
+    font-size: 2.7rem;
+}
+.trust{
+    background: #e9e9e9;
+    transition: background 0.3s, border-radius 0.3s, opacity 0.3s
+}
+.map{
+    width: 100%;
+    /* height:100%; */
+}
+.tex{
+    font-weight: bolder;
+    font-size: 50px;
+}
+.cons{
+    margin-top: 20px;
+}
+footer{
+    position: relative;
+    width: 100%;
+    background: #fff;
+    min-height: 100px;
+    padding: 20px 50px;
+    align-items: center;
+    flex-direction: column;
+}
+footer .social_icon,footer .menu{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0;
+    flex-wrap: wrap;
+}
+footer .social_icon li,footer .menu li{
+    list-style: none;
+}
+footer .social_icon li a{
+    font-size: 2em;
+    color: #000;
+    margin: 0 10px;
+    display: inline-block;
+    transition: 0.5s;
+}
+footer .social_icon li a:hover{
+    transform: translate(-10px);
+}
+footer .menu li a{
+    font-size: 1.2em;
+    color: #000;
+    margin: 0 10px;
+    display: inline-block;
+    text-decoration: none;
+    opacity: 0.75;
+    transition: 0.5s;
+}
+footer .menu li a:hover{
+    opacity: 1;
+}
+footer p{
+    color: #000;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    font-size: 1.1em;
+}
+@keyframes animateWave{
+    0%{
+        background-position-x: 1000px;
+    }
+    100%{
+        background-position-x: 0;
+    }
+}
+@keyframes animateWave_02{
+    0%{
+        background-position-x: 0;
+    }
+    100%{
+        background-position-x:1000px;
+    }
+}
+/* jobs */
